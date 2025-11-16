@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "League Spartan", sans-serif;
+}
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+.uper-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.left-section {
+  width: 30%;
+  padding: 50px;
+}
+.left-section h1 {
+  color: hsl(300, 43%, 22%);
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  letter-spacing: -3px;
+}
+.left-section p {
+  font-size: 20px;
+  font-weight: 500;
+  color: hsl(303, 10%, 53%);
+  letter-spacing: -1px;
+}
+.right-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.rating-card1 {
+  display: flex;
+  background-color: hsl(300, 24%, 96%);
+  padding: 20px 50px 20px 30px;
+  border-radius: 10px;
+  gap: 30px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.rating-card1 p {
+  color: hsl(300, 43%, 22%);
+  font-size: 16px;
+  font-weight: 700;
+}
+.rating-card2 {
+  display: flex;
+  background-color: hsl(300, 24%, 96%);
+  padding: 20px 50px 20px 30px;
+  border-radius: 10px;
+  gap: 30px;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 50px;
+}
+.rating-card2 p {
+  color: hsl(300, 43%, 22%);
+  font-size: 16px;
+  font-weight: 700;
+}
+.rating-card3 {
+  display: flex;
+  background-color: hsl(300, 24%, 96%);
+  padding: 20px 50px 20px 30px;
+  border-radius: 10px;
+  gap: 30px;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 100px;
+}
+.rating-card3 p {
+  color: hsl(300, 43%, 22%);
+  font-size: 16px;
+  font-weight: 700;
+}
+.bottom-section {
+  display: flex;
+  margin-top: 50px;
+  gap: 40px;
+  justify-content: center;
+}
+
+.customer-card {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 280px;
+  background-color: hsl(300, 43%, 22%);
+  padding: 40px 35px;
+  border-radius: 10px;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 10px;
+}
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 20px;
+  align-self: flex-start;
+}
+.customer-details {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.card-header img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.customer-name {
+  color: hsl(300, 24%, 96%);
+}
+.verified-buyer {
+  color: hsl(333, 80%, 67%);
+  font-weight: 400;
+}
+.customer-card p {
+  color: hsl(300, 24%, 96%);
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: larger;
+}
+.center-card {
+  margin-top: 20px;
+}
+.last-card {
+  margin-top: 40px;
+}
